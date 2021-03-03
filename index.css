@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(0deg, #5F7AD3, #5F7AD3);
+    }
+.bg_white{
+position: absolute;
+width: 1300px;
+height: 2202px;
+margin-top:93px;
+background: #FFFFFF;
+margin-left: 150px;
+margin-right: 150px;
+}
+.logo{
+margin-left: 26px;
+margin-top: 37px;
+}
+.square{
+    position: absolute;
+width: 110px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #EA4737;
+margin-left: 547px;
+}
+.shape{
+    position: absolute;
+width: 12px;
+height: 20px;
+    margin-left: 92px;
+    margin-top: 53px;
+}
+.Path{
+    position: absolute;
+width: 20px;
+height: 20px;
+margin-left: 1000px;
+margin-top: 30px;
+}
+.oval{
+    position: absolute;
+width: 42px;
+height: 42px;
+margin-left: 1080px;
+margin-right: 35px;
+margin-top: 26px;
+}
