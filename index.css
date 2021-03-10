@@ -12,7 +12,7 @@ margin-right: 150px;
 }
 .logo{
 margin-left: 26px;
-margin-top: 37px;
+margin-top: 20px;
 }
 .square{
     position: absolute;
@@ -33,10 +33,10 @@ height: 20px;
 }
 .Path{
     position: absolute;
-width: 20px;
-height: 20px;
-margin-left: 1000px;
-margin-top: 30px;
+    width: 32px;
+    height: 32px;
+    margin-left: 1015px;
+    margin-top: 32.45px;
 }
 .oval{
     position: absolute;
@@ -45,4 +45,75 @@ height: 42px;
 margin-left: 1080px;
 margin-right: 35px;
 margin-top: 26px;
+}
+.upOval{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: 1105px;
+    margin-top: 20px;
+}
+.up8{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    margin-left: 1253px;
+    margin-top: -62px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.blue{
+    position: absolute;
+width: 35px;
+height: 368px;
+left: 0px;
+top: 1px;
+margin-top: 79px;
+background: #2998E2;
+}
+.Assasin{
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 47.96%, rgba(23, 23, 23, 0.750368) 100%);
+margin-top: 80px;
+margin-left: 35px;
+background-image: "/images/Rectangle 2 Copy 10 (2).svg";
+}
+.Fantastic{
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 47.96%, rgba(23, 23, 23, 0.750368) 100%);
+margin-top: 80px;
+margin-left: 291px;
+background-image: "/images/Rectangle 2 Copy 10 (2).svg";
+}
+.Strange{
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 47.96%, rgba(23, 23, 23, 0.750368) 100%);
+margin-top: 80px;
+margin-left: 547px;
+background-image: "/images/Rectangle 2 Copy 10 (2).svg";
 }
