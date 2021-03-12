@@ -1,0 +1,109 @@
+.blue{
+    position: absolute;
+width: 35px;
+height: 368px;
+left: 0px;
+top: 1px;
+margin-top: 79px;
+background: #2998E2;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 35px;
+    margin-right: -11px;
+    }
+ .menu li {
+    width: 252px;
+    height: 368px;
+    margin: 0 0px 0 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: -3px;
+    }
+.bg_gr_black{
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    margin-left: 35px;
+    margin-top: 80px;
+}
+.Red{
+    position: absolute;
+width: 252px;
+height: 368px;
+left: 0px;
+top: 0px;
+margin-left: 803px;
+margin-top: 80px;
+}
+.Rectangle3{
+    position: absolute;
+width: 253px;
+height: 124px;
+left: 0px;
+top: 0px;
+margin-left: 803px;
+margin-top: 210px;
+background: rgba(255, 255, 255, 0.373302);
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.057971);
+}
+.Shape2{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 2px;
+top: 2px;
+    margin-left: 913px;
+margin-top: 115px;
+}
+.Shape3{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 2px;
+top: 2px;
+    margin-left: 913px;
+margin-top: 250px;
+}
+.Shape4{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 2px;
+top: 2px;
+    margin-left: 913px;
+margin-top: 380px;
+}
+.Ticket_Shape{
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+        margin-left: 990px;
+        margin-top: 320px;  
+}
+.next{
+    position: absolute;
+width: 36px;
+height: 368px;
+left: 0px;
+top: 0px;
+margin-left: 1264px;
+margin-top: 80px;
+background: rgba(0, 0, 0, 0.33);
+}
+.Button_Next{
+    position: absolute;
+width: 11px;
+height: 26px;
+left: 14px;
+top: 171px;
+margin-left: 1265px;
+margin-top: 80px;
+}

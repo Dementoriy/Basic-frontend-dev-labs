@@ -1,0 +1,133 @@
+
+.Orange_line{
+    position: absolute;
+width: 34px;
+height: 409px;
+left: 0px;
+top: 1px;
+margin-top: 451px;
+background: #EA4737;
+}
+.JasonBourne{
+    position: absolute;
+    width: 508px;
+    height: 409px;
+    left: 0px;
+    top: 0px;
+margin-top: 452px;
+margin-left: 34px;
+background: #07131B;
+}
+.Bourne{
+    position: absolute;
+width: 164px;
+height: 223px;
+left: -4.59px;
+top: -2.15px;
+margin-top: 14px;
+margin-left: 14px;
+}
+.Shape5{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 13px;
+    top: 0px;
+
+    margin-top: 5px;
+}
+.Bourne_img {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 325px;
+    margin-left: 4px;
+    }
+ .Bourne_img li {
+    width: 80px;
+    height: 80px;
+    margin: 0 0px 0 0;
+    padding: 0;
+    display: inline-block;
+    }
+.Group12{
+    position: absolute;
+width: 52px;
+height: 20px;
+left: 0px;
+top: 0px;
+margin-top: 145px;
+margin-left: 302px;
+}
+.Group13{
+    position: absolute;
+width: 52px;
+height: 20px;
+left: 0px;
+top: 0px;
+margin-top: 145px;
+margin-left: 368px;
+}
+.JasonBourne2016{
+    position: absolute;
+width: 780px;
+height: 409px;
+left: 0px;
+top: 0px;
+margin-top: 452px;
+margin-left: 520px;
+}
+.Shadow{
+    position: absolute;
+width: 770px;
+height: 409px;
+left: 0px;
+top: 0px;
+margin-top: 452px;
+margin-left: 530px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 6e-05) 64.13%, rgba(0, 0, 0, 0.6) 100%), rgba(0, 0, 0, 0.276863);
+}
+.Play_gr{
+    position: absolute;
+width: 36px;
+height: 409px;
+left: 0px;
+top: 0px;
+margin-top: 452px;
+margin-left: 1264px;
+background: rgba(0, 0, 0, 0.33);
+}
+.Button_play{
+    position: absolute;
+    width: 11px;
+    height: 26px;
+    left: 14px;
+    top: 171px;
+    margin-left: 1265px;
+    margin-top: 470px;
+}
+.Oval2{
+    position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+margin-top: 623px;
+margin-left: 894px;
+}
+.select {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 398px;
+    margin-left: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    }
+ .select li {
+    width: 6px;
+    height: 6px;
+    margin: 0 0px 0 0;
+    padding: 0;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.9);
+    }
