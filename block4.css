@@ -1,9 +1,14 @@
+.Top250{
+    position: absolute;
+width: 407px;
+height: 383px;
+left: 16px;
+bottom: 480px;
+}
 .menu5 {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-top: 66px;
-    margin-left: 36px;
     }
 .menu5 li {
     width: 42px;
@@ -12,11 +17,20 @@
     padding: 0;
     }
 .randommovie {
-    background: #07131B;
-    width: 408px;
-    height: 346px;
-    margin-left: 446px;
-    margin-top: -348px;
+    position: absolute;
+width: 435px;
+height: 383px;
+right: 419px;
+bottom: 480px;
+top: 1302px;
+}
+.poster{
+    position: absolute;
+width: 408px;
+height: 346px;
+left: 0px;
+top: 37px;
+ background: #07131B;
 }
 .shadow1 {
     position: absolute;
@@ -24,8 +38,7 @@ width: 407px;
 height: 101px;
 left: 0px;
 top: 0px;
-margin-top: 1469px;
-margin-left: 446px;
+margin-top: 245px;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 12.07%, rgba(23, 23, 23, 0.713796) 100%);
 }
 .tag1 {
@@ -79,12 +92,17 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 12.07%, rgba(23, 23, 2
     margin-left: 125px;
     margin-top: 14px;
 }
+.Box_office{
+    position: absolute;
+width: 408px;
+height: 383px;
+right: 15px;
+bottom: 480px;
+}
 .menu6 {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-top: -346px;
-    margin-left: 877px;    
 }
 .menu6 li {
     width: 42px;
@@ -92,12 +110,17 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 12.07%, rgba(23, 23, 2
     margin: 0 0 2px 0;
     padding: 0;
 }
+.Recently_ciewed{
+    position: absolute;
+width: 1310px;
+height: 147px;
+right: -26px;
+bottom: 304px;
+}
 .menu7 {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-top: 64px;
-    margin-left: 16px; 
 }
 .menu7 li {
     width: 80px;
@@ -117,7 +140,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 12.07%, rgba(23, 23, 2
     position: absolute;
 width: 36px;
 height: 112px;
-left: 0px;
+left: -15px;
 top: 0px;
 margin-top: 0px;
 margin-left: 18px;
@@ -127,7 +150,7 @@ background: rgba(0, 0, 0, 0.33);
     position: absolute;
     width: 11px;
     height: 26px;
-    left: 32px;
+    left: 20px;
     top: 44px;
     margin-left: 0px;
     margin-top: 0px;

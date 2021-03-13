@@ -11,40 +11,76 @@
     margin: 0 0 20.9px 0;
     padding: 0;
     }
+.Born_Today{
+    position: absolute;
+width: 413px;
+height: 181px;
+right: 443px;
+top: 893px;
+}
+.prev{
+    position: absolute;
+width: 334px;
+height: 21px;
+left: 0px;
+top: -40px;
+
+font-family: ProximaNova;
+font-size: 24px;
+line-height: 21px;
+/* identical to box height, or 87% */
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.795488);
+
+}
 .menu2 {
     margin: 0;
     padding: 0;
+    width: 413;
     list-style-type: none;
-    margin-top: -365.5px;
-    margin-left: 446px;
     }
     .menu2 li {
-    width: 80px;
+    width: 79px;
     height: 112px;
-    margin: 0 0 0 0;
+    margin: 0 0px 0 0;
     padding: 0;
     display: inline-block;
+    margin-top: 25px;
     }
+.See_on_Netflix{
+    position: absolute;
+width: 414px;
+height: 182px;
+right: 441px;
+bottom: 920px;
+}
 .menu3 {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-top: 88px;
-    margin-left: 446px;
     }
     .menu3 li {
-    width: 80px;
+    width: 79px;
     height: 112px;
+    margin-top: 25px;
     margin: 0 0 0 0;
     padding: 0;
     display: inline-block;
     }
+.Todays_Wallpapers{
+    position: absolute;
+width: 407px;
+height: 379px;
+right: 15px;
+top: 893px;
+}
 .menu4 {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-top: -260px;
-    margin-left: 878px;
     }
     .menu4 li {
     width: 406px;
@@ -57,9 +93,8 @@
     width: 406px;
     height: 101px;
     left: 0px;
-    top: 0px;
-    margin-top: 938px;
-    margin-left: 878px;
+    top: -16px;
+
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 37.41%, rgba(23, 23, 23, 0.917403) 100%);
 }
 .shadow3 {
@@ -67,9 +102,8 @@
     width: 406px;
     height: 101px;
     left: 0px;
-    top: 0px;
-    margin-top: 1059px;
-    margin-left: 878px;
+    top: 105px;
+  
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 37.41%, rgba(23, 23, 23, 0.917403) 100%);
 }
 .shadow4 {
@@ -77,9 +111,8 @@
     width: 406px;
     height: 101px;
     left: 0px;
-    top: 0px;
-    margin-top: 1180px;
-    margin-left: 878px;
+    top: 226px;
+  
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 37.41%, rgba(23, 23, 23, 0.917403) 100%);
 }
 .line1 {
