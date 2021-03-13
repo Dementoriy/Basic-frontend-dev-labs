@@ -56,7 +56,7 @@ width: 52px;
 height: 20px;
 left: 0px;
 top: 0px;
-margin-top: 145px;
+margin-top: 170px;
 margin-left: 302px;
 }
 .Group13{
@@ -65,7 +65,7 @@ width: 52px;
 height: 20px;
 left: 0px;
 top: 0px;
-margin-top: 145px;
+margin-top: 170px;
 margin-left: 368px;
 }
 .JasonBourne2016{
@@ -131,3 +131,268 @@ margin-left: 894px;
     display: inline-block;
     background: rgba(255, 255, 255, 0.9);
     }
+.txt1{
+    position: absolute;
+width: 275.57px;
+height: 31px;
+left: 229px;
+top: 12px;
+
+font-family: ProximaNova;
+font-size: 26px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.txt2{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 229px;
+top: 59px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #70B0FF;
+}
+.txt3{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 229px;
+top: 91px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #70B0FF;
+
+}
+.txt4{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 229px;
+top: 123px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #70B0FF;
+
+}
+.txt5{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 229px;
+top: 155px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #70B0FF;
+
+}
+.txt6{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 229px;
+top: 187px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #70B0FF;
+}
+.txt7{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 229px;
+top: 219px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #70B0FF;
+
+}
+.txt8{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 339px;
+top: 59px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: rgba(255, 255, 255, 0.797328);
+}
+.txt9{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 339px;
+top: 91px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: rgba(255, 255, 255, 0.797328);
+}
+.txt10{
+    position: absolute;
+width: 142px;
+height: 17px;
+left: 339px;
+top: 123px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: rgba(255, 255, 255, 0.797328);
+
+}
+.txt11{
+    position: absolute;
+width: 49px;
+height: 16px;
+left: 312px;
+top: 160px;
+
+font-family: ProximaNova;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.txt12{
+    position: absolute;
+width: 49px;
+height: 16px;
+left: 378px;
+top: 160px;
+
+font-family: ProximaNova;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+}
+.txt13{
+    position: absolute;
+width: 129px;
+height: 17px;
+left: 339px;
+top: 187px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: rgba(255, 255, 255, 0.797328);
+}
+.txt14{
+    position: absolute;
+width: 471px;
+height: 63px;
+left: 10px;
+top: 248px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.797328);
+
+}
+.txt15{
+    position: absolute;
+width: 72px;
+height: 17px;
+left: 339px;
+top: 219px;
+
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: rgba(255, 255, 255, 0.797328);
+
+}
