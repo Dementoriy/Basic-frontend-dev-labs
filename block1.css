@@ -23,13 +23,40 @@ background: #2998E2;
     display: inline-block;
     margin-top: -3px;
     }
-.bg_gr_black{
+.bg_gr_black1{
     position: absolute;
     width: 252px;
     height: 368px;
     left: 0px;
     top: 0px;
     margin-left: 35px;
+    margin-top: 80px;
+}
+.bg_gr_black2{
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    margin-left: 291px;
+    margin-top: 80px;
+}
+.bg_gr_black3{
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    margin-left: 1059px;
+    margin-top: 80px;
+}
+.bg_gr_black4{
+    position: absolute;
+    width: 252px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    margin-left: 547px;
     margin-top: 80px;
 }
 .Red{
