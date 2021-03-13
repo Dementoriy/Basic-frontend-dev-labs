@@ -5,12 +5,12 @@ height: 383px;
 left: 16px;
 bottom: 480px;
 }
-.menu5 {
+.img_TOP250 {
     margin: 0;
     padding: 0;
     list-style-type: none;
     }
-.menu5 li {
+.img_TOP250 li {
     width: 42px;
     height: 56px;
     margin: 0 0 2px 0;
@@ -99,12 +99,12 @@ height: 383px;
 right: 15px;
 bottom: 480px;
 }
-.menu6 {
+.img_Box_office {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-.menu6 li {
+.img_Box_office li {
     width: 42px;
     height: 56px;
     margin: 0 0 2px 0;
@@ -117,12 +117,12 @@ height: 147px;
 right: -26px;
 bottom: 304px;
 }
-.menu7 {
+.img_Recently_ciewed {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-.menu7 li {
+.img_Recently_ciewed li {
     width: 80px;
     height: 112px;
     margin: 0 -2px 0 0;
