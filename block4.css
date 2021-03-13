@@ -1,0 +1,145 @@
+.menu5 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 66px;
+    margin-left: 36px;
+    }
+.menu5 li {
+    width: 42px;
+    height: 56px;
+    margin: 0 0 2px 0;
+    padding: 0;
+    }
+.randommovie {
+    background: #07131B;
+    width: 408px;
+    height: 346px;
+    margin-left: 446px;
+    margin-top: -348px;
+}
+.shadow1 {
+    position: absolute;
+width: 407px;
+height: 101px;
+left: 0px;
+top: 0px;
+margin-top: 1469px;
+margin-left: 446px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 12.07%, rgba(23, 23, 23, 0.713796) 100%);
+}
+.tag1 {
+    width: 52px;
+    height: 22px;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.tag2 {
+    width: 76px;
+    height: 22px;
+    margin-top: 17px;
+    margin-left: 8px;
+}
+.tag3 {
+    width: 44px;
+    height: 22px;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+.tag4 {
+    width: 63px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.tag5 {
+    width: 70px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 8px;
+}
+.tag6 {
+    width: 70px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 8px;
+    margin-right: -100px
+}
+.randombutton {
+    width: 384px;
+    height: 53px;
+    margin-left: 12px;
+    margin-top: 14px; 
+    background: rgba(255, 255, 255, 0.187302);
+}
+.arrow {
+    width: 20px;
+    height: 23.19px;
+    margin-left: 125px;
+    margin-top: 14px;
+}
+.menu6 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: -346px;
+    margin-left: 877px;    
+}
+.menu6 li {
+    width: 42px;
+    height: 56px;
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+.menu7 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 64px;
+    margin-left: 16px; 
+}
+.menu7 li {
+    width: 80px;
+    height: 112px;
+    margin: 0 -2px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+.fifty {
+    position: absolute;
+    width: 54px;
+    height: 112px;
+    margin-left: 1246px;
+    margin-top: -116px;
+}
+.buttonplay {
+    position: absolute;
+width: 36px;
+height: 112px;
+left: 0px;
+top: 0px;
+margin-top: 0px;
+margin-left: 18px;
+background: rgba(0, 0, 0, 0.33);
+}
+.play1 {
+    position: absolute;
+    width: 11px;
+    height: 26px;
+    left: 32px;
+    top: 44px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.line2 {
+    position: absolute;
+    width: 1300px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    margin-top: 1915px;
+    margin-left: 0px;
+    background: rgba(0, 0, 0, 0.149994);
+    }

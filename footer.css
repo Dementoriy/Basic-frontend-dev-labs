@@ -1,0 +1,218 @@
+footer{
+    position: absolute;
+width: 1274px;
+height: 257px;
+right: 11px;
+bottom: 11px;
+margin-top: 1934px;
+}
+.IMDbeverywhere{
+    position: absolute;
+width: 391px;
+height: 197px;
+left: 0px;
+top: 10px;
+}
+.t1{
+    position: absolute;
+width: 325.37px;
+height: 21px;
+left: 1px;
+font-family: ProximaNova;
+font-size: 24px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.795488);
+margin-top: -10px;
+}
+.t2{
+    position: absolute;
+width: 390px;
+height: 60px;
+left: 1px;
+top: 91.28px;
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.795488);
+}
+.t3{
+    position: absolute;
+width: 207px;
+height: 21px;
+left: 0px;
+top: 176px;
+font-family: ProximaNova;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #4A90E2;
+}
+.t4{
+    position: absolute;
+width: 202px;
+height: 21px;
+left: 0px;
+top: 0.78px;
+
+font-family: ProximaNova;
+font-size: 24px;
+line-height: 21px;
+/* identical to box height, or 87% */
+margin-top: -10px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.795488);
+}
+.App {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 197px;
+    top: 38.4px;
+    list-style-type: none;
+}
+.App li {
+width: 124px;
+height: 38px;
+
+    margin: 0 7px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+.IMDbfollow{
+    position: absolute;
+width: 202px;
+height: 164px;
+left: 422px;
+top: 7px; 
+}
+.follow {
+    position: absolute;
+    width: 250px;
+    height: 164px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 35px;
+
+}
+.follow li {
+    width: 54px;
+    height: 54px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+.t5{
+    position: absolute;
+width: 202px;
+height: 21px;
+left: 0px;
+top: 0.78px;
+
+font-family: ProximaNova;
+font-size: 24px;
+line-height: 21px;
+/* identical to box height, or 87% */
+margin-top: -10px;
+display: flex;
+align-items: center;
+margin-left: 665px;
+color: rgba(0, 0, 0, 0.795488);
+
+}
+.flickr {
+    position: absolute;
+width: 202px;
+height: 167px;
+left: 650px;
+top: 10px;
+
+}
+.Photos {
+    position: absolute;
+    width: 202px;
+    height: 129px;
+    left: 2px;
+    top: 38px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 665px;
+}
+.Photos li {
+    width: 63px;
+    height: 63px;
+    margin: 0 1px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+.Links{
+    position: absolute;
+width: 396px;
+height: 203px;
+left: 878px;
+top: 0px;
+}
+.text1{
+    position: absolute;
+width: 128px;
+height: 203px;
+left: 0px;
+top: 0px;
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: #4A90E2;
+}
+.text2{
+position: absolute;
+width: 128px;
+height: 203px;
+left: 137px;
+top: 0px;
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: #4A90E2;
+}
+.text3{
+    position: absolute;
+width: 128px;
+height: 174px;
+left: 268px;
+top: 0px;
+font-family: ProximaNova;
+font-size: 14px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: #4A90E2;
+}
+.Amazon{
+    position: absolute;
+width: 1268px;
+height: 23px;
+left: 1px;
+top: 234px;
+}
+.amazon_logo{
+    position: absolute;
+width: 100px;
+height: 20px;
+left: 24px;
+top: 3px;
+}
+
+
