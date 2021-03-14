@@ -72,3 +72,88 @@ margin-top: 26px;
     color: #FFFFFF;
 
 }
+.htx1{
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    left: 347px;
+    top: 18px;
+    
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: rgba(0, 0, 0, 0.698398);
+}
+.htx2{
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left: 476px;
+    top: 18px;
+    
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: rgba(0, 0, 0, 0.698398);
+}
+.htx3{
+    position: absolute;
+    width: 52px;
+    height: 19px;
+    left: 685px;
+    top: 18px;
+    
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: rgba(0, 0, 0, 0.698398);
+}
+.htx4{
+    position: absolute;
+    width: 110px;
+    height: 19px;
+    left: 794px;
+    top: 18px;
+    
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: rgba(0, 0, 0, 0.698398);
+}
+.htx5{
+    position: absolute;
+    width: 52px;
+    height: 19px;
+    left: 576px;
+    top: 18px;
+    
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    
+    color: rgba(0, 0, 0, 0.698398);
+}
