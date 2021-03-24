@@ -1,0 +1,15 @@
+.body{
+    width: 1366px;
+}
+.line{
+    position: absolute;
+width: 1520px;
+height: 0px;
+left: 0px;
+top: 2299px;
+margin-top: 70px;
+opacity: 0.4;
+/* white */
+
+border: 1px solid #FFFFFF;
+}
