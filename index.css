@@ -1,15 +1,18 @@
 .body{
     width: 1366px;
 }
-.line{
-    position: absolute;
-width: 1520px;
-height: 0px;
+.liner{
+    
+width: 20px;
+height: 1px;
 left: 0px;
 top: 2299px;
-margin-top: 70px;
-opacity: 0.4;
-/* white */
+margin-top: 2px;
 
-border: 1px solid #FFFFFF;
+}
+.registration{
+    width: 640px
+}
+.block1{
+    width: 20px
 }
