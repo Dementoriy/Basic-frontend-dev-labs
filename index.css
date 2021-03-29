@@ -42,7 +42,34 @@ margin-top: 2px;
     line-height: 30px;
     color: #1F3F68;
 }
+#wwdh31{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+#wwdh32{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+#wwdh33{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
 #blocksPicters{
+    width:380px;
+    box-shadow: 0 14px 40px #C4E3FC;
+}
+#blocksPicters1{
+    width:380px;
+    box-shadow: 0 14px 40px #C4E3FC;
+}
+#blocksPicters2{
+    width:380px;
+    box-shadow: 0 14px 40px #C4E3FC;
+}
+#blocksPicters3{
     width:380px;
     box-shadow: 0 14px 40px #C4E3FC;
 }
