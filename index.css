@@ -1,6 +1,12 @@
 .body{
     width: 1366px;
 }
+.menu1{
+    margin-left: 1180px;
+}
+.img_bot{
+width: 550px;
+}
 .liner{
     
 width: 20px;
@@ -15,4 +21,47 @@ margin-top: 2px;
 }
 .block1{
     width: 20px
+}
+#sth1{
+    font-family: Galien;
+    font-size: 64px;
+    line-height: 74px;
+    color: #1F3F68;
+}
+#knopka{
+    background: #5A98D0;
+}
+#wwd{
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #316099;
+}
+#wwdh3{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+#blocksPicters{
+    width:380px;
+    box-shadow: 0 14px 40px #C4E3FC;
+}
+#OurFinish{
+    
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+#OurBeloved{
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+#upfooter{
+    border-radius: 200px 0px 0px 0px;
+}
+#douwnfooter{
+    border-radius: 0px 200px 0px 0px;
+    color: #5A98D0;
 }
