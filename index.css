@@ -1,54 +1,82 @@
 main{
-    position: absolute;
-    width: 1600px;
+    width: 1440px;
     height: 2250px;
     left: 0px;
     top: 0px;
     
     background: #0D0D2B;
 }
-.logo{
-    position: absolute;
-width: 40px;
-height: 40px;
-left: 120px;
-top: 66px;
-margin-top: 5px;
+.L1{
+  position: absolute;
+width: 120px;
+height: 997.88px;
+left: 191px;
+margin-left: 730px;
+margin-top: -560px;
+background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+transform: rotate(-120deg);
 }
-.ill{
-    position: absolute;
-width: 604px;
-height: 585.15px;
-left: 716px;
-top: 163px;
+.L2{
+  position: absolute;
+width: 120px;
+height: 997.88px;
+left: 660px;
+top: 1072.86px;
+margin-left: 700px;
+margin-top: -860px;
+background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+transform: rotate(-120deg);
 }
-.ul2{
-    position: absolute;
-    margin-left: 900px;
+.L3{
+  position: absolute;
+width: 120px;
+height: 997.88px;
+left: 461.33px;
+top: 417.8px;
+margin-top: 650px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 34.75%, rgba(255, 255, 255, 0.1) 100%);
+transform: rotate(60deg);
 }
-.ill2{
-    position: absolute;
-width: 650px;
-height: 473px;
-left: 120px;
-top: 292px;
-margin-top: 900px;
+.D{
+  margin-left: 1300px;
+  margin-top: -600px;
 }
-.it1{
-    margin-top: 700px;
-    margin-left: 400px;
+.U{
+  margin-left: 1300px;
+  margin-top: 290px;
 }
-.block2{
-    position: absolute;
-width: 1600px;
-height: 1490px;
-left: 0px;
-top: 2250px;
+.BG2{
+  background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+}
+.preloader {
+    /*фиксированное позиционирование*/
+    position: fixed;
+    /* координаты положения */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* фоновый цвет элемента */
+    background: #e0e0e0;
+    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+    z-index: 1001;
+  }
 
-background: #FAFBFF;
-}
-.text1{
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 300px;
-}
+  .preloader__row {
+    position: relative;
+    top: 50%;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+  }           
+  
+
+  .loaded_hiding .preloader {
+    transition: 0.534s opacity;
+    opacity: 1;
+  }
+
+  .loaded .preloader {
+    display: none;
+  }

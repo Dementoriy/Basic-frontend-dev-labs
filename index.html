@@ -9,14 +9,21 @@
     <title>verstka</title>
 </head>
 <body>
-    <main>
+    <div class="preloader">
+        <div class="preloader__row">
+            <p class="text-4xl text-center">Загрузка страницы …</p>
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+    <main class="mx-auto">
         <nav class="container flex justify-between">
             <div class="flex">
-                <img src="img/Logo.png" alt="Logo" class="logo">
-                <p class="ml-44 mt-20 text-white text-xl">CRAPPO</p>
+                <img src="img/Logo.png" alt="Logo" class="w-10 h-10 ml-36 mt-20">
+                <p class="ml-6 mt-20 text-white text-xl">CRAPPO</p>
             </div>
             <div>
-                <ul class="flex space-x-5 text-white text-xl mt-20 ">
+                <ul class="flex space-x-6 text-white text-lg mt-20 mr-40">
                     <li>
                         Products
                     </li>
@@ -36,7 +43,7 @@
                         <img src="./img/Divider.svg" alt="div">
                     </li>
                     <li class="-mt-4">
-                        <button id="knopka" class="py-4 px-8 w-full bg-blue-400 focus:outline-none rounded-xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                        <button id="knopka" class="py-3 px-8 w-full bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                             <span>Register</span>
                         </button>
                         <script src="script.js"></script>
@@ -44,13 +51,13 @@
                 </ul>
             </div>
         </nav>
-        <div class="mt-40 ml-32">
+        <div class="mt-40 ml-32 flex">
             <ul>
                 <li>
                     <img src="./img/Info.svg" alt="info">
                 </li>
                 <li>
-                    <p class="text-5xl text-white mt-8">
+                    <p class="text-7xl text-white mt-8 font-bold">
                         Fastest & secure<br>
                         platform to invest<br>
                         in crypto
@@ -63,70 +70,224 @@
                     </p>
                 </li>
                 <li class="mt-8">
-                    <button id="knopka" class="py-2  w-40 bg-blue-400 focus:outline-none rounded-xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                    <button id="knopka" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <span class="flex justify-between mx-2">
-                            <p class="text-white">Try for FREE </p>
+                            <p class="text-white ml-2 mt-1">Try for FREE </p>
                             <img src="img/Arrow_Right.svg">
                         </span>
                     </button>
                     <script src="script.js"></script>
                 </li>
             </ul>
-            <img src="img/Illustration.svg" alt="ill" class="ill">
+            <img src="img/Illustration.svg" alt="ill" class="ml-6 -mt-20">
         </div>
-        <div class="mt-80 ml-30 mx-20">
-            <img src="./img/Numbers.svg" class="ml-20">
+        <div class="L1"></div>
+        <div class="L2"></div>
+        <div class="container mt-40 ml-36">
+            <ul class="flex space-x-24">
+                <li>
+                    <div class="flex space-x-5">
+                        <img src="./img/Icon1.svg">
+                        <ul>
+                            <li class="mt-3">
+                                <p class="text-white text-4xl font-bold">$30B</p>
+                            </li>
+                            <li class="mt-4">
+                                <p class="text-gray-400 text-lg">Digital Currency Exchanged</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex space-x-5">
+                        <img src="./img/Icon1.svg">
+                        <ul>
+                            <li class="mt-3">
+                                <p class="text-white text-4xl font-bold">10M+</p>
+                            </li>
+                            <li class="mt-4">
+                                <p class="text-gray-400 text-lg">Trusted Wallets Investor</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex space-x-5">
+                        <img src="./img/Icon1.svg">
+                        <ul>
+                            <li class="mt-3">
+                                <p class="text-white text-4xl font-bold">195</p>
+                            </li>
+                            <li class="mt-4">
+                                <p class="text-gray-400 text-lg">Countries Supported</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="mt-64">
-            <ul class="ul2">
-                <li class="text-white text-5xl">
+        <div class="container mt-60 flex">
+            <img src="./img/Illustrations.svg" alt="ill2" class="ml-16 -mt-20">
+            <ul class="ml-20">
+                <li class="text-white text-4xl font-bold">
                     Why you should choose<br>
                     CRAPPO
                 </li>
-                <li class="text-white text-xl mt-10">
+                <li class="text-gray-400 text-xl mt-10">
                     Experience the next generation cryptocurrency<br>
                     platform. No financial borders, extra fees, and fake<br>
                     reviews.
                 </li>
                 <li class="mt-8">
-                    <button id="knopka" class="py-2  w-40 bg-blue-400 focus:outline-none rounded-xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                    <button id="knopka" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <span class="flex justify-between mx-2">
-                            <p class="text-white">Learn More</p>
-
+                            <p class="text-white ml-8">Learn More</p>
                         </span>
                     </button>
                     <script src="script.js"></script>
                 </li>
             </ul>
-            <img src="./img/Illustrations.svg" alt="ill2" class="ill2">
         </div>
-        <div class="it1">
-            <p class="text-6xl text-white">
-                Check how much you can earn
-            </p>
-            <p class="text-xl text-white ml-20 mt-10">
-                Let’s check your hash rate to see how much you will earn today,<br>
-                Exercitation veniam consequat sunt nostrud amet.
-            </p>
+        <img src="./img/D.svg" class="D" alt="D">
+        <img src="./img/u.svg" class="U" alt="U">
+        <div class="L3"></div>
+        <div class="container mt-40 mx-auto">
+            <p class="text-white text-5xl font-bold text-center">Check how much you can earn</p>
+            <p class="text-center text-white text-xl text-gray-400 mt-10">Let’s check your hash rate to see how much you will earn today,<br> Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        <div class="bg-white rounded-2xl mx-52 mt-20 py-14 shadow-2xl">
+            <ul class="space-x-5 flex justify-between  ml-10">
+                <li>
+                    <div>
+                        <p class="text-2xl font-medium">Enter your hash rate</p>
+                        <img src="./img/Form.svg">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="flex">
+                            <p class="text-2xl font-medium">TH/s</p>
+                            <img src="img/Arrow_Down.svg" alt="arr" class="ml-20">
+                        </div>
+                        
+                        <img src="./img/Form1.svg">
+                    </div>
+                </li>
+                <li>
+                    <button id="knopka" class="py-3 -mt-12 mr-8 w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                        <span class="text-white">Calculate</span>
+                    </button>
+                    <script src="script.js"></script>
+                </li>
+            </ul>
+            <ul class="mt-36 ml-10">
+                <li class="text-xl text-blue-500 font-bold">
+                    ESTIMATED 24 HOUR REVENUE:
+                </li>
+                <li class="text-4xl font-bold mt-8">
+                    <div class="flex">
+                        <p>0.055 130 59 ETH</p>
+                        <p class="text-blue-500 ml-2">($1275)</p>
+                    </div>
+                </li>
+                <li class="text-lg text-gray-400 mt-6">
+                    Revenue will change based on mining difficulty and Ethereum price.
+                </li>
+            </ul>
+        </div>
+        <div class="BG2">
+            <div class="container text-center text-5xl font-bold mt-40">
+                Trade securely and market the high<br> growth cryptocurrencies.
+            </div>
+            <div class="container mt-20 flex space-x-20">
+                <div class="container rounded-2xl bg-indigo-900">
+                    <ul class="items-center mt-10 ml-10">
+                        <li class="ml-32">
+                            <img src="./img/Bit.svg" alt="Bit">                        
+                        </li>
+                        <li class="mt-14 ml-28">
+                            <div class="flex">
+                                <p class="text-3xl text-white font-bold">Bitcoin</p>
+                                <p class="text-xl text-gray-400 ml-2">BTC</p>
+                            </div>
+                        </li>
+                        <li class="text-lg -ml-8 mt-6 text-center text-white">
+                            Digital currency in which a record of<br> transactions is maintained.
+                        </li>
+                        <li class="mt-12 ml-20">
+                            <button id="knopka" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                                <span class="flex justify-between mx-2">
+                                    <p class="text-white ml-2 mt-1">Start mining</p>
+                                    <img src="img/Arrow_Right.svg">
+                                </span>
+                            </button>
+                            <script src="script.js"></script>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container rounded-2xl shadow-2xl">
+                    <ul class="items-center mt-10 ml-10">
+                        <li class="ml-32">
+                            <img src="./img/diamond.svg" alt="diamond">
+                        </li>
+                        <li class="mt-14 ml-24">
+                            <div class="flex">
+                                <p class="text-3xl font-bold">Ethereum</p>
+                                <p class="text-xl text-gray-400 ml-2">ETH</p>
+                            </div>
+                        </li>
+                        <li class="text-lg -ml-8 mt-8 text-center text-gray-400">
+                            Blockchain technology to create and run<br> decentralized digital applications.
+                        </li>
+                        <li class="mt-10 ml-36">
+                            <button id="knopka" class="w-40  focus:outline-none">
+                                <span>
+                                    <img src="img/next.svg">
+                                </span>
+                            </button>
+                            <script src="script.js"></script>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container rounded-2xl shadow-2xl">
+                    <ul class="items-center mt-10 ml-10">
+                        <li class="ml-32">
+                            <img src="./img/L.svg" alt="diamond">
+                        </li>
+                        <li class="mt-14 ml-28">
+                            <div class="flex">
+                                <p class="text-3xl font-bold">Litecoin</p>
+                                <p class="text-xl text-gray-400 ml-2">LTC</p>
+                            </div>
+                        </li>
+                        <li class="text-lg -ml-8 mt-8 text-center text-gray-400">
+                            Cryptocurrency that enables instant<br> payments to anyone in the world.
+                        </li>
+                        <li class="mt-10 ml-36">
+                            <button id="knopka" class="w-40  focus:outline-none">
+                                <span>
+                                    <img src="img/next.svg">
+                                </span>
+                            </button>
+                            <script src="script.js"></script>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
-    <div class="block2">
-        <img src="./img/Calculate.svg" class="-mt-72">
-        <div class="text1">
-            <p class="text-5xl">Trade securely and market the high<br>
-            growth cryptocurrencies.</p>    
-        </div>
-        <ul class="flex mt-40 ml-20">
-            <li>
-                <img src="./img/BTC.svg" alt="btc">
-            </li>
-            <li>
-                <img src="./img/ETH.svg" alt="etc">
-            </li>
-            <li>
-                <img src="./img/LTC.svg" alt="ltc">
-            </li>
-        </ul>
-    </div>
+
+          <script>
+            window.onload = function () {
+              document.body.classList.add('loaded_hiding');
+              window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+              }, 500);
+            }
+          </script> 
+  
+
+    
 </body>
 </html>
