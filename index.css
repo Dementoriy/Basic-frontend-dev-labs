@@ -1,0 +1,54 @@
+main{
+    position: absolute;
+    width: 1600px;
+    height: 2250px;
+    left: 0px;
+    top: 0px;
+    
+    background: #0D0D2B;
+}
+.logo{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 120px;
+top: 66px;
+margin-top: 5px;
+}
+.ill{
+    position: absolute;
+width: 604px;
+height: 585.15px;
+left: 716px;
+top: 163px;
+}
+.ul2{
+    position: absolute;
+    margin-left: 900px;
+}
+.ill2{
+    position: absolute;
+width: 650px;
+height: 473px;
+left: 120px;
+top: 292px;
+margin-top: 900px;
+}
+.it1{
+    margin-top: 700px;
+    margin-left: 400px;
+}
+.block2{
+    position: absolute;
+width: 1600px;
+height: 1490px;
+left: 0px;
+top: 2250px;
+
+background: #FAFBFF;
+}
+.text1{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 300px;
+}
