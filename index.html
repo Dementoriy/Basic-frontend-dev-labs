@@ -9,21 +9,24 @@
     <link rel="stylesheet" href="index.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="/js.js"></script>
-    <title>verstka</title>
+    <script src="/script.js"></script>
+    <title>Site</title>
+    
 </head>
 <body>
-    <div class="preloader">
-        <div class="preloader__row">
-            <p class="text-4xl text-center">Загрузка страницы …</p>
-          <div class="preloader__item"></div>
-          <div class="preloader__item"></div>
-        </div>
-      </div>
-    <main class="mx-auto">
+<div class="preloader">
+    <div class="preloader__row">
+        <p class="text-4xl text-center">Загрузка страницы …</p>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+
+  <main>
+      <div class="bgf1 mx-auto">
         <nav class="container flex justify-between">
             <div class="flex">
-                <img src="img/Logo.png" alt="Logo" class="w-10 h-10 ml-36 mt-20">
+                <img src="img/Logo1.png" alt="Logo" class="w-10 h-10 ml-36 mt-20">
                 <p class="ml-6 mt-20 text-white text-xl">CRAPPO</p>
             </div>
             <div>
@@ -74,7 +77,7 @@
                     </p>
                 </li>
                 <li class="mt-8">
-                    <button id="knopka" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                    <button onclick="knopka()" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <span class="flex justify-between mx-2">
                             <p class="text-white ml-2 mt-1">Try for FREE </p>
                             <img src="img/Arrow_Right.svg">
@@ -143,7 +146,7 @@
                     reviews.
                 </li>
                 <li class="mt-8">
-                    <button id="knopka" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                    <button onclick="knopka()" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <span class="flex justify-between mx-2">
                             <p class="text-white ml-8">Learn More</p>
                         </span>
@@ -178,7 +181,7 @@
                     </div>
                 </li>
                 <li>
-                    <button id="knopka" class="py-3 -mt-12 mr-8 w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                    <button onclick="knopka()" class="py-3 -mt-12 mr-8 w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <span class="text-white">Calculate</span>
                     </button>
                     <script src="script.js"></script>
@@ -207,7 +210,7 @@
                 <div class="container rounded-2xl bg-indigo-900">
                     <ul class="items-center mt-10 ml-10">
                         <li class="ml-32">
-                            <img src="./img/Bit.svg" alt="Bit">                        
+                            <img src="./img/Bit1.svg" alt="Bit">                        
                         </li>
                         <li class="mt-14 ml-28">
                             <div class="flex">
@@ -219,7 +222,7 @@
                             Digital currency in which a record of<br> transactions is maintained.
                         </li>
                         <li class="mt-12 ml-20">
-                            <button id="knopka" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                            <button onclick="knopka()" class="py-3  w-40 bg-blue-500 focus:outline-none rounded-3xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                                 <span class="flex justify-between mx-2">
                                     <p class="text-white ml-2 mt-1">Start mining</p>
                                     <img src="img/Arrow_Right.svg">
@@ -244,7 +247,7 @@
                             Blockchain technology to create and run<br> decentralized digital applications.
                         </li>
                         <li class="mt-10 ml-36">
-                            <button id="knopka" class="w-40  focus:outline-none">
+                            <button onclick="knopka()" class="w-40  focus:outline-none">
                                 <span>
                                     <img src="img/next.svg">
                                 </span>
@@ -268,7 +271,7 @@
                             Cryptocurrency that enables instant<br> payments to anyone in the world.
                         </li>
                         <li class="mt-10 ml-36">
-                            <button id="knopka" class="w-40  focus:outline-none">
+                            <button onclick="knopka()" class="w-40  focus:outline-none">
                                 <span>
                                     <img src="img/next.svg">
                                 </span>
@@ -279,171 +282,170 @@
                 </div>
             </div>
         </div>
-        <div class="background mx-auto mt-20">
-            <img src="./img/oval.svg" class="oval" alt="1">
-            <p class="text-white text-center pt-16 text-4xl w-3xl txt1">Market sentiments, portfolio, and run<br> the infrastructure of your choice</p>
-            <div class="pl-32 flex justify-between mt-16">
-                <div>
-                    <p class="text-3xl text-white txt1">Invest Smart</p>
-                    <p class="text-gray-100 mt-6">Get full statistic information about the behaviour of<br> buyers and sellers will help you to make the decision.</p>
-                    <button class="mt-8 focus:outline-none" onclick="knopka()"><span class="txt1 text-white py-4 px-8 bg-blue-500 rounded-full">Learn More</span></button>
+      </div>    
+    <div class="background mx-auto mt-48">
+        <img src="./img/oval.svg" class="oval" alt="1">
+        <p class="text-white text-center pt-16 text-4xl w-3xl txt1">Market sentiments, portfolio, and run<br> the infrastructure of your choice</p>
+        <div class="pl-32 flex justify-between mt-16">
+            <div>
+                <p class="text-3xl text-white txt1">Invest Smart</p>
+                <p class="text-gray-100">Get full statistic information about the behaviour of<br> buyers and sellers will help you to make the decision.</p>
+                <button class="mt-8 focus:outline-none" onclick="knopka()"><span class="txt1 text-white py-4 px-8 bg-blue-500 rounded-full">Learn More</span></button>
+            </div>
+            <div>
+                <div class="chart mr-32">
+                <div class="pt-8 mx-8 flex text-xl justify-between">
+                    <div class="flex">
+                        <img src="./img/bitcoin.svg" alt="1">
+                    <p class="ml-2 text-white">Bitcoin</p>
+                    <p class="text-gray-200 text-sm ml-2 mt-1">BTC</p>
+                    </div>                
+                    <p class="text-blue-300">+125%</p>
                 </div>
-                <div>
-                    <div class="chart mr-32">
-                    <div class="pt-8 mx-8 flex text-xl justify-between">
+                <p class="text-gray-100 ml-20">0.00080 BTC</p>
+                <img src="./img/graf.svg" class="px-8" alt="">
+                </div>
+                <div class="flex space-x-12 -mt-8 pl-14">
+                    <div class="card1 max-w-44 max-h-52 px-8 py-4">
+                        <p class="text-white text-3xl">Increase in<br>Trade</p>
                         <div class="flex">
-                            <img src="./img/bitcoin.svg" alt="1">
-                        <p class="ml-2 text-white">Bitcoin</p>
-                        <p class="text-gray-200 text-sm ml-2 mt-1">BTC</p>
-                        </div>                
-                        <p class="text-blue-300">+125%</p>
-                    </div>
-                    <p class="text-gray-100 ml-20">0.00080 BTC</p>
-                    <img src="./img/graf.svg" class="px-8" alt="">
-                    </div>
-                    <div class="flex space-x-12 -mt-8 pl-14">
-                        <div class="card1 max-w-44 max-h-52 px-8 py-4">
-                            <p class="text-white text-3xl">Increase in<br>Trade</p>
-                            <div class="flex">
-                                <p class="text-white text-2xl ">+75%</p>
-                                <img src="./img/arrow-up.svg" class="" alt="1">
-                            </div>
-                            <p class="pt-4 text-gray-200">Sell option</p>
+                            <p class="text-white text-2xl ">+75%</p>
+                            <img src="./img/arrow-up.svg" class="" alt="1">
                         </div>
-                        <div class="card2 px-8 mb-24">
-                            <p class="text-white text-center mt-4 txt1">$15.32</p>
-                            <p class="text-gray-200 text-center text-sm">Price in dollar</p>
-                        </div>
+                        <p class="pt-4 text-gray-200">Sell option</p>
                     </div>
-                </div>            
-            </div>
-            <div class="flex mt-32 items-center">
-                <div>
-                    <img src="./img/static.svg" alt="1">
-                </div>
-                <div class="ml-24">
-                    <p class="txt1 text-white text-2xl">Detailed Statistics</p>
-                    <p class="text-gray-200 mt-6">View all mining related information in realtime, at any<br>point at any location and decide which polls you want<br>to mine in.</p>
-                    <button class="mt-8 focus:outline-none" onclick="knopka()"><span class="txt1 text-white py-4 px-8 bg-blue-500 rounded-full">Learn More</span></button>
-                    <script type="text/javascript" src="script.js"></script>
-                </div>
-            </div>
-            <div class="mt-24 mx-24 items-center flex justify-between">
-                <div>
-                    <p class="text-white txt1 text-3xl">Grow your profit and track<br>your investments</p>
-                    <p class="text-gray-200 mt-8">Use advanced analytical tools. Clear TradingView<br>charts let you track current and historical profit<br>investments.</p>
-                    <button class="mt-8 focus:outline-none" onclick="knopka()"><span class="txt1 text-white py-4 px-8 bg-blue-500 rounded-full">Learn More</span></button>
-                    <script type="text/javascript" src="script.js"></script>
-                </div>
-                <div class="table">
-                    <div class="flex space-x-20 ml-48">
-                        <p class="text-white">Price</p>
-                        <p class="text-white">Change</p>
-                        <p class="text-white">Volume(24h)</p>
-                    </div>
-                    <div class="flex items-center mt-4 pl-6">
-                        <img src="./img/bitcoin.svg" alt="">
-                        <div class="flex space-x-20 ml-4">
-                            <div>
-                                <p class="text-white text-2xl">BTC</p>
-                                <p class="text-gray-200">Bitcoin</p>
-                            </div>
-                            <p class="text-gray-200 mt-3">$6750</p>
-                            <div class="flex items-center -mt-2">
-                                <img src="./img/arrow-green.svg" alt="">
-                                <p class="text-green-200">+7.3%</p>                            
-                            </div>
-                            <p class="text-gray-200 mt-3">$3420214</p>
-                        </div>                    
-                    </div>
-                    <div class="flex items-center mt-4 -ml-16 eth pl-6 mr-16">
-                        <img src="./img/eth.svg" alt="">
-                        <div class="flex space-x-16 ml-4">
-                            <div>
-                                <p class="text-white text-2xl">ETH</p>
-                                <p class="text-gray-200">Ethereum</p>
-                            </div>
-                            <p class="text-gray-200 mt-3">$156.83</p>
-                            <div class="flex items-center -mt-2">
-                                <img src="./img/arrow-red.svg" alt="1">
-                                <p class="text-red-200">-0.9%</p>                            
-                            </div>
-                            <p class="text-gray-200 mt-3">$1812350</p>
-                        </div>                    
-                    </div>
-                    <div class="flex items-center mt-4 pl-6">
-                        <img src="./img/ltc.svg" alt="">
-                        <div class="flex space-x-20 ml-4">
-                            <div>
-                                <p class="text-white text-2xl">LTC</p>
-                                <p class="text-gray-200">Litecoin</p>
-                            </div>
-                            <p class="text-gray-200 mt-3">$8535</p>
-                            <div class="flex items-center -mt-2">
-                                <img src="./img/arrow-green.svg" alt="">
-                                <p class="text-green-200">+8.2%</p>                            
-                            </div>
-                            <p class="text-gray-200 mt-3">$5820399</p>
-                        </div>                    
+                    <div class="card2 px-8 mb-24">
+                        <p class="text-white text-center mt-4 txt1">$15.32</p>
+                        <p class="text-gray-200 text-center text-sm">Price in dollar</p>
                     </div>
                 </div>
-            </div>        
+            </div>            
         </div>
-        <div class="start mx-auto pt-48 pb-36">
-            <div class="mining mx-32 flex items-center">
-                <div class="px-8 py-8">
-                    <p class="text-white txt1 text-2xl">Start mining now</p>
-                    <p class="text-white mt-6">Join now with CRAPPO to get the latest news<br>and start mining now</p>
-                </div>
-                <div class="ml-24">
-                    <p class="text-white">Enter your email</p>
-                    <img src="./img/line.svg" alt="1">
-                </div>
-                <button class="focus:outline-none ml-16" onclick="knopka()"><span class="txt1 text-gray-900 py-4 px-10 bg-white rounded-full">Subscribe</span></button>
-                <script type="text/javascript" src="script.js"></script>
-                
+        <div class="flex mt-32 items-center">
+            <div>
+                <img src="./img/static.svg" alt="1">
+            </div>
+            <div class="ml-24">
+                <p class="txt1 text-white text-2xl">Detailed Statistics</p>
+                <p class="text-gray-200 mt-6">View all mining related information in realtime, at any<br>point at any location and decide which polls you want<br>to mine in.</p>
+                <button class="mt-8 focus:outline-none" onclick="knopka()"><span class="txt1 text-white py-4 px-8 bg-blue-500 rounded-full">Learn More</span></button>
             </div>
         </div>
-        <footer class="mx-auto mt-1000">
-            <div class="flex mt-1000">
-                <img src="./img/Logo.svg" class="ml-32 -mt-60" alt="1">
-                <ul class="text-white ml-32">
-                    <li><p class="text-xl txt1">Quick Link</p></li>
-                    <li><p class="mt-10">Home<br><br>Products<br><br>About<br><br>Features<br><br>Contact</p></li>
-                </ul>
-                <ul class="text-white ml-56">
-                <li><p class="text-xl txt1">Resources</p></li>
-                <li><p class="mt-10">Download Whitepapper<br><br>Smart Token<br><br>Blockchain Explorer<br><br>Crypto API<br><br>Interest</p></li>
-            </ul>
-            <div class="ml-32">
-                <p class="text-white text-3xl txt1">We accept following<br>payment systems</p>
-                <div class="flex space-x-4 mt-8">
-                    <img src="./img/Visa.svg" alt="1">
-                    <img src="./img/Mastercard.svg" alt="1">
-                    <img src="./img/Bit.svg" alt="1">
+        <div class="mt-24 mx-24 items-center flex justify-between">
+            <div>
+                <p class="text-white txt1 text-3xl">Grow your profit and track<br>your investments</p>
+                <p class="text-gray-200 mt-8">Use advanced analytical tools. Clear TradingView<br>charts let you track current and historical profit<br>investments.</p>
+                <button class="mt-8 focus:outline-none" onclick="knopka()"><span class="txt1 text-white py-4 px-8 bg-blue-500 rounded-full">Learn More</span></button>
+            </div>
+            <div class="table">
+                <div class="flex space-x-20 ml-48">
+                    <p class="text-white">Price</p>
+                    <p class="text-white">Change</p>
+                    <p class="text-white">Volume(24h)</p>
+                </div>
+                <div class="flex items-center mt-4 pl-6">
+                    <img src="./img/bitcoin.svg" alt="">
+                    <div class="flex space-x-20 ml-4">
+                        <div>
+                            <p class="text-white text-2xl">BTC</p>
+                            <p class="text-gray-200">Bitcoin</p>
+                        </div>
+                        <p class="text-gray-200 mt-3">$6750</p>
+                        <div class="flex items-center -mt-2">
+                            <img src="./img/arrow-green.svg" alt="">
+                            <p class="text-green-200">+7.3%</p>                            
+                        </div>
+                        <p class="text-gray-200 mt-3">$3420214</p>
+                    </div>                    
+                </div>
+                <div class="flex items-center mt-4 -ml-16 eth pl-6 mr-16">
+                    <img src="./img/eth.svg" alt="">
+                    <div class="flex space-x-16 ml-4">
+                        <div>
+                            <p class="text-white text-2xl">ETH</p>
+                            <p class="text-gray-200">Ethereum</p>
+                        </div>
+                        <p class="text-gray-200 mt-3">$156.83</p>
+                        <div class="flex items-center -mt-2">
+                            <img src="./img/arrow-red.svg" alt="1">
+                            <p class="text-red-200">-0.9%</p>                            
+                        </div>
+                        <p class="text-gray-200 mt-3">$1812350</p>
+                    </div>                    
+                </div>
+                <div class="flex items-center mt-4 pl-6">
+                    <img src="./img/ltc.svg" alt="">
+                    <div class="flex space-x-20 ml-4">
+                        <div>
+                            <p class="text-white text-2xl">LTC</p>
+                            <p class="text-gray-200">Litecoin</p>
+                        </div>
+                        <p class="text-gray-200 mt-3">$8535</p>
+                        <div class="flex items-center -mt-2">
+                            <img src="./img/arrow-green.svg" alt="">
+                            <p class="text-green-200">+8.2%</p>                            
+                        </div>
+                        <p class="text-gray-200 mt-3">$5820399</p>
+                    </div>                    
                 </div>
             </div>
+        </div>        
+    </div>
+    <div class="start mx-auto pt-48 pb-36">
+        <div class="mining mx-32 flex items-center">
+            <div class="px-8 py-8">
+                <p class="text-white txt1 text-2xl">Start mining now</p>
+                <p class="text-white mt-6">Join now with CRAPPO to get the latest news<br>and start mining now</p>
             </div>
-            <div class="flex justify-between mx-32 mt-44">
-                <p class="text-white ">©2021 CRAPPO. All rights reserved</p>
-                <div class="flex space-x-4">
-                    <img src="./img/facebook.svg" alt="1">
-                    <img src="./img/instagram.svg" alt="1">
-                    <img src="./img/youtube.svg" alt="1">
-                    <img src="./img/twitter.svg" alt="1">
-                    <img src="./img/linkedin.svg" alt="1">
-                </div>
+            <div class="ml-24">
+                <p class="text-white">Enter your email</p>
+                <img src="./img/line.svg" alt="1">
             </div>
-    </footer>  
-    </main>
-          <script>
-            window.onload = function () {
-              document.body.classList.add('loaded_hiding');
-              window.setTimeout(function () {
-                document.body.classList.add('loaded');
-                document.body.classList.remove('loaded_hiding');
-              }, 500);
-            }
-          </script> 
+            <button class="focus:outline-none ml-16" onclick="knopka()"><span class="txt1 text-gray-900 py-4 px-10 bg-white rounded-full">Subscribe</span></button>
+            
+        </div>
+    </div>
+  </main>
+  <footer class="mx-auto pb-16">
+      <div class="flex">
+          <img src="./img/Logo.svg" class="ml-32 -mt-60" alt="1">
+          <ul class="text-white ml-32">
+              <li><p class="text-xl txt1">Quick Link</p></li>
+              <li><p class="mt-10">Home<br><br>Products<br><br>About<br><br>Features<br><br>Contact</p></li>
+          </ul>
+          <ul class="text-white ml-56">
+            <li><p class="text-xl txt1">Resources</p></li>
+            <li><p class="mt-10">Download Whitepapper<br><br>Smart Token<br><br>Blockchain Explorer<br><br>Crypto API<br><br>Interest</p></li>
+        </ul>
+        <div class="ml-32">
+            <p class="text-white text-3xl txt1">We accept following<br>payment systems</p>
+            <div class="flex space-x-4 mt-8">
+                <img src="./img/Visa.svg" alt="1">
+                <img src="./img/Mastercard.svg" alt="1">
+                <img src="./img/Bit.svg" alt="1"> 
+            </div>
+        </div>
+      </div>
+      <div class="flex justify-between mx-32 mt-44">
+          <p class="text-white ">©2021 CRAPPO. All rights reserved</p>
+          <div class="flex space-x-4">
+              <img src="./img/facebook.svg" alt="1">
+              <img src="./img/instagram.svg" alt="1">
+              <img src="./img/youtube.svg" alt="1">
+              <img src="./img/twitter.svg" alt="1">
+              <img src="./img/linkedin.svg" alt="1">
+          </div>
+      </div>
+      
+  </footer>  
+
+  <script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');}, 500);
+    }
+  </script>
 </body>
 </html>
