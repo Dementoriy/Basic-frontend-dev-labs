@@ -80,3 +80,62 @@ transform: rotate(60deg);
   .loaded .preloader {
     display: none;
   }
+  .background{
+    background-color: #2B076E;  
+    width: 1440px;
+  }
+  .oval{
+    position: absolute;
+    left: 151px;
+    top: -250px;
+    width: 686px;
+    height: 686px;
+    color: #290099;
+  }
+  .txt1{
+  font-weight: bold;
+  }
+  
+  .chart{
+    background: #35068C;
+  border-radius: 16px;
+  }
+  .card1{
+      background: #491F98;
+      backdrop-filter: blur(250px);
+      border-radius: 16px;
+  }
+  .card2{
+      background: #491F98;
+      border-radius: 16px;
+      filter: drop-shadow(15px 20px 40px rgba(172, 116, 218, 0.15));
+  }
+  .oval1{
+      position: absolute;
+      left:1440px;
+      width: 686px;
+      height: 686px;
+      transform: rotate(180deg);
+  }
+  .table{
+      background: #35068C;
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  }
+  .eth{
+      background: #4610AD;
+  border-radius: 16px;
+  }
+  .start{
+      background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+      width:1440px;
+  }
+  .mining{
+      background-image: url(./img/start.svg);
+      background-color: #3671E9;
+  border-radius: 16px;
+  }
+  footer{
+      background: #0D0D2B;
+      width: 1440px;
+  }
