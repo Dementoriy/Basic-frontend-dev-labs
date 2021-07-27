@@ -1,7 +1,5 @@
 var key = new Boolean(false)
 var username;
-
-
 function knopka() {
     if(key==true){
         Swal.fire('Я это сделал, а ' + username + ' тебе от меня совет: “ Поступай правильно — поступай в ВятГУ!”')
